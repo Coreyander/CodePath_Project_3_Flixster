@@ -22,10 +22,6 @@ The following **optional** features are implemented:
 - [x] Implement Glide to display placeholder graphics during loading
   - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -34,16 +30,17 @@ Here's a walkthrough of implemented user stories:
 
 <img src='FlixsterWalkthroughLand' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<img src='GlideError' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LICEcap  
+
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+- Creating an API call independent of the Fragment (I wanted reuseablility)
+- Working with API calls and VMs during debugging
 
 ## License
 
