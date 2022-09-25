@@ -29,7 +29,6 @@ class FlixsterRecyclerViewAdapter(private val movies: List<Movies>) : RecyclerVi
         Glide.with(holder.mView)
             .load(posterPathBaseUrl+movie.posterPath)
             .placeholder(R.drawable.placeholder_image)
-            //         .error(R.drawable.not_found.xml)
             .centerInside()
             .into(holder.mMoviePoster)
     }
